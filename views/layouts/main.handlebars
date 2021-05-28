@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Clock</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
+      
+      <nav>
+        <!-- Conditionally render login or logout links -->
+        {{!-- <a href="/">home</a> | --}}
+         {{!-- {{#if logged_in}} --}}
+        {{!-- <a href="/dashboard">dashboard</a> |
+        <a href="/post">Post wishlist item</a> |
+        <a href="/wishlist">View Wishlist</a> |
+       
+        <button class="no-button" id="logout">logout</button>
+        {{else}} --}}
+        {{!-- <a href="/login">login</a> --}}
+        {{!-- {{/if}} --}}
+      {{!-- </nav> --}}
+    </header>
+    <main class="container container-fluid mt-5">
+
+{{!-- <div>  
+  <div id="logo">  
+      <h1>
+        <a href="/">Tick Tock Birthday Clock</a>
+      </h1>
+     </div>  
+      <div class="home-buttons">
+        <button><a href="/login">LOGIN</a></button>
+        <button><a href="/login">SIGNUP</a></button>
+      </div>
+</div>  --}}
+
+
+      <!-- Render the sub layout -->
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+  </div>
+
+  <!-- Render script for logged in users only -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>

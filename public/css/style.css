@@ -1,0 +1,90 @@
+html { 
+  /* background: url(../images/logo.png) no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */ 
+  background-color: #85d2f0;
+}
+
+.form-select {
+  height: 35px;
+  width: 100px;
+  padding-left: 10px;
+}
+
+#logo {
+  /* padding-top: 20%; */
+  padding-left: 10%;
+  /* height: 10%; */
+  width: 100%;
+}
+
+#logo-login {
+  /* padding-top: 3%;
+  padding-left: 35%;
+  padding-bottom: 3%; */
+  width: 50%;
+  color: #85d2f0
+}
+
+#logo-login:hover {
+  text-decoration: none;
+  color: #85d2f0;
+}
+
+.home-buttons {
+  padding-left: 45%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 42px;
+}
+
+a {
+  color: #3d54ee;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #3d54ee;
+  border: none;
+}
+
+#home-login, #home-signup {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.logout-btn {
+  padding-left: 90%;
+}
+
+#dashboard-container {
+  padding-top: 6%;
+  text-align: center;
+}
+
+main.col-auto {
+  padding-left: 0;
+}
+
+#dashboard-btns {
+  padding-top: 15px;
+}
+
+#dashboard-logo {
+  width: 50%;
+  padding: 0;
+}
+
+.login-container {
+  padding-left: 30%;
+}
+
+.signup-container {
+  padding-left: 30%;
+}
+
+

@@ -1,0 +1,39 @@
+
+        
+
+
+
+       <div class="logout-btn">
+        <button id="logout">logout</button>
+      </div>
+
+<div id="dashboard-logo">
+      <a href="/"><img src="../images/logo.png"  id="logo-login"></a>
+</div>
+
+<div id="dashboard-container">
+<div class="row" id="welcome">
+  <div class="col-auto">
+    <h2>Welcome, {{name}}!</h2>
+  </div>
+</div>
+
+<main class="col-auto">
+        {{{body}}}
+
+        <h1 id="time-left"></h1>
+        <h3>Until Your Birthday On {{birthdayMonth}} {{birthdayDay}}</h3>
+      </main>
+
+<div id="dashboard-btns">
+      <button><a href="/post">Post Wishlist item</a></button>
+      <button><a href="/updateWishlist">Update your Wishlist</a></button>
+        <button><a href="/wishlist">View Wishlist</a></button>
+        <button><a href="/friendWishlist">Find a friend's Wishlist</a></button>
+</div>
+        </div>
+
+<script src="./js/clock.js"></script>
+
+
+
